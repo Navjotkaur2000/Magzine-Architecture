@@ -1,0 +1,391 @@
+
+ body {
+    overflow-x: hidden;
+    height:10px;
+    background-color:lightgrey;
+    display: flex;
+    flex-direction: column;
+ }
+ .main-logo-wrapper{
+   
+    position: relative;
+    top: 0.7rem;
+    left: 5rem;
+ }
+ .left-logo-line{
+    width: 12%;
+    height: 1px;
+    margin-left: 10px;
+    background-color: #000;
+ }
+ .left-logo{
+   font-size: 2rem;
+    color: black;
+ }
+ .menu-main-wrapper{
+     position: relative;
+    right: 28rem;
+    bottom: 4rem;
+ }
+  .nav-line{
+   width: 72%;
+    height: 1px;
+    margin-left: 50rem;
+    background-color: #000;
+ }
+ .navigation-wrapper{
+     position: relative;
+     float: right;
+    font-size: 2rem;
+letter-spacing: 4px;
+ }
+ .navigation-wrapper>a:hover
+ {
+   color: black;
+ }
+ .nav-item{
+    padding-right: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+ .search-bar-wrapper{
+    position: relative;
+    bottom: 3rem;
+    left: 66rem;
+ }
+ .search{
+  border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 11rem;
+    height: 1.4rem;
+    position: relative;
+    bottom: 9px;
+        background-color: lightgrey;
+
+ }
+ 
+ input:focus {
+    outline: none;
+    background-color: lightgrey;
+}
+ .search_button{
+    position: relative;
+    bottom: 1rem;
+    width: 6.5rem;
+    height: 2.5rem;
+    left: -2rem; 
+    background-color: black;
+    color:white;
+}
+.icon-wrapper
+{
+   margin-top: 4rem;
+   margin-left: 4rem;
+   position: relative;
+   top:119px;
+}
+.twitter
+{
+position: relative;
+top: -21px;
+}
+.facebook
+{
+position: relative;
+top: 7px;
+}
+.Internet
+{
+position: relative;
+top:41px;
+}
+.social
+{
+  display: flex;
+    writing-mode: rl-tb;
+    position: relative;
+    transform: translate(-596px, -381px) rotate(-90deg);
+    color:grey;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Roboto Mono', sans-serif;   }
+.number
+{
+   position: relative;
+   left:13rem;
+   bottom:7rem;
+}
+
+ .title-wrapper
+ {
+   position: relative;
+   left:23.5rem;
+   bottom:8rem; 
+   font-family: 'Roboto Mono', sans-serif;
+    color: #000;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 3px;
+ }
+ .heading
+ {
+   margin-top: 16px;
+    margin-left:-1rem;
+    font-family:warnock-pro-display, sans-serif;
+    color: #000;
+    font-size: 100px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+ }
+ .image-wrapper
+ {
+   position:relative;
+   left:15rem;
+   bottom:8rem;
+ }
+ .content-wrapper
+ {
+    position: relative;
+    left:553px;
+    bottom:480px;
+    
+ }
+ .button{
+    width: 232px;
+    height: 40px;
+    background-color: #000;
+    color: white;
+    position: relative;
+    top: 17px;
+    font-size: 10px;
+    LETTER-SPACING: 2px;
+ }
+ .social-wrapper
+ {
+  width:100px;
+  height:-0px;
+ }
+ .heading4
+ {
+   position: relative;
+   right:20px;
+   bottom:262px;
+   
+ }
+ .icon0
+ {
+   position: relative;
+    left: 64rem;
+    bottom: 43rem;
+}
+
+ .icon1
+ {
+   position: relative;
+    right:17px;
+   bottom:271px;
+   border:2px solid rgb(167, 164, 164);  
+   background-color: rgb(167, 164, 164);
+   width:257px;
+   height:62px;
+   
+ }
+ .icon2
+ {
+   position: relative;
+    right:17px;
+   bottom:264px;
+   border:2px solid rgb(167, 164, 164);  
+   background-color: rgb(167, 164, 164);
+   width:257px;
+   height:62px;
+   
+ }
+ .icon3
+ {
+   position: relative;
+    right:17px;
+   bottom:255px;
+   border:2px solid rgb(167, 164, 164);  
+   background-color: rgb(167, 164, 164);
+   width:257px;
+   height:62px;
+ }
+ .sub-icon-img1
+ {
+   position:relative;
+   left:6px;
+   top:7px;
+ }
+ .sub-icon-img2
+ {
+   position:relative;
+   left:6px;
+   top:7px;
+ }
+ .sub-icon-img3
+ {
+    position:relative;
+   left:6px;
+   top:7px;  
+ }
+ .sub-icon1
+ {
+   text-decoration: none;
+ }
+ .sub-icon2
+ {
+   text-decoration: none;
+ }
+ .sub-icon3
+ {
+   text-decoration: none;
+ }
+.innericon1
+{
+position: relative;
+left:59px;
+bottom:44px;
+color: black;
+text-decoration:none;
+}
+.innericon2
+{
+position: relative;
+left:59px;
+bottom:44px;
+color: black;
+text-decoration:none;
+}
+.innericon3
+{
+position: relative;
+left:59px;
+bottom:44px;
+color: black;
+text-decoration: none;
+}
+.icon1:hover
+{
+   background-color: white;
+}
+.icon2:hover
+{
+   background-color: white;
+}
+.icon3:hover
+{
+   background-color: white;
+}
+.book-wrapper
+{
+   position: relative;
+    left: 64rem;
+    bottom: 43rem;
+}
+.inner-heading{
+    color: black;
+    position: relative;
+    bottom: 210px;
+    right: 16px;
+    
+}
+.book1
+{
+   position: relative;
+    right:17px;
+   bottom:216px;
+   border:2px solid rgb(167, 164, 164);  
+   background-color: rgb(167, 164, 164);
+   width:257px;
+   height:86px;
+   
+}
+.book2
+{
+    position: relative;
+   right:17px;
+   bottom:207px;
+   border:2px solid rgb(167, 164, 164); 
+   background-color:rgb(167, 164, 164); 
+    width:257px;
+   height:86px;  
+}
+.book3
+{
+   position: relative;
+   right:17px;
+   bottom:197px;
+   border:2px solid rgb(167, 164, 164); 
+   background-color: rgb(167, 164, 164); 
+    width:257px;
+   height:86px;
+}
+.sub-book1
+{
+   text-decoration: none;
+}
+.sub-book2
+{
+   text-decoration: none;
+}
+.sub-book3
+{
+   text-decoration: none;
+}
+.innerbook1
+{
+position: relative;
+left:56px;
+bottom:68px;
+color: black;
+
+}
+.innerbook2
+{
+position: relative;
+left:56px;
+bottom:62px; 
+color: black;  
+
+}
+.innerbook3
+{
+ position: relative;
+left:56px;
+bottom:62px;  
+color: black;
+
+}
+.number
+{
+   position: relative;
+   left:73px;
+   bottom:915px;
+   color: grey;
+}
+.footer-content
+{
+   position: relative;
+   left:264px;
+   bottom:933px;
+   color: grey;
+}
+.tutorial
+{
+   position: relative;
+   left:786px;
+   bottom:950px;
+   color: grey;
+}
